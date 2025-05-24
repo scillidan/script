@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[-KEY_CURRENT_USER\Software\Classes\*\shell\Open with &VSCodium]
+[-KEY_CURRENT_USER\Software\Classes\*\shell\Open with &VSCodium\command]
+[-KEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &VSCodium]
+[-KEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &VSCodium\command]
+[-KEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &VSCodium]
+[-KEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &VSCodium\command]

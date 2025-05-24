@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\alacritty-msys2]
+@="alacritty(wsl) ."
+"Icon"="C:\\Users\\User\\Scoop\\apps\\alacritty\\current\\Alacritty.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\alacritty-msys2\command]
+@="\"C:\\Users\\User\\Scoop\\apps\\alacritty\\current\\Alacritty.exe\" --config-file \"C:\\Users\\User\\Git\\dotfiles\\alacritty\\alacritty_msys2.toml" --working-directory \"%V"
+
+[HKEY_CLASSES_ROOT\Drive\shell\alacritty-msys2]
+@="alacritty(wsl) ."
+"Icon"="C:\\Users\\User\\Scoop\\apps\\alacritty\\current\\Alacritty.exe"
+
+[HKEY_CLASSES_ROOT\Drive\shell\alacritty-msys2\command]
+@="\"C:\\Users\\User\\Scoop\\apps\\alacritty\\current\\Alacritty.exe\" --config-file \"C:\\Users\\User\\Git\\dotfiles\\alacritty\\alacritty_msys2.toml" --working-directory \"%V"
+
+[HKEY_CLASSES_ROOT\Directory\shell\alacritty-msys2]
+@="alacritty(wsl) ."
+"Icon"="C:\\Users\\User\\Scoop\\apps\\alacritty\\current\\Alacritty.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\alacritty-msys2\command]
+@="\"C:\\Users\\User\\Scoop\\apps\\alacritty\\current\\Alacritty.exe\" --config-file \"C:\\Users\\User\\Git\\dotfiles\\alacritty\\alacritty_msys2.toml" --working-directory \"%V"
