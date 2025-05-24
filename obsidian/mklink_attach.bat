@@ -16,7 +16,7 @@ mklink "%VAULT_CHEATSHEET%\attach\latex\LongTeX1.pdf" "%HOME_DIR%\Usr\Data\latex
 mklink "%VAULT_CHEATSHEET%\attach\latex\latexsheet-a4.pdf" "%HOME_DIR%\Usr\Data\latex\latexsheet-a4.pdf"
 del "%VAULT_CHEATSHEET%\attach\latex\package-pdf-jpg\*.jpg"
 for %%F in ("%HOME_DIR%\File\image_latex\*.jpg" ), do (
-    mklink "%VAULT_CHEATSHEET%\attach\latex\package-pdf-jpg\%%~nF.jpg" "%%F"
+    mklink /H "%VAULT_CHEATSHEET%\attach\latex\package-pdf-jpg\%%~nF.jpg" "%%F"
 )
 echo(
 

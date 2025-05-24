@@ -3,7 +3,7 @@
 echo Setup SendTo
 echo ===
 set "SENDTO_DIR=%HOME_DIR%\AppData\Roaming\Microsoft\Windows\SendTo"
-set "SOURCE_DIR=%HOME_DIR%\Git\command\_windows\src\SendTo"
+set "SOURCE_DIR=%HOME_DIR%\Git\script\_windows\src\SendTo"
 del "%SENDTO_DIR%\WinMergeU.exe"
 del "%SENDTO_DIR%\video-compare.exe"
 del "%SENDTO_DIR%\image2jpg.bat"

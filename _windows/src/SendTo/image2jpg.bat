@@ -10,7 +10,7 @@ for %%I in (%*) do (
     if exist "%%~I" (
         set "outputFile=%%~dpnI.jpg"
 
-        magick convert "%%~I" -quality 100 "!outputFile!"
+        magick convert "%%~I" -quality 90 "!outputFile!"
 
         if exist "!outputFile!" (
             echo Converted "%%~I" to "!outputFile!"

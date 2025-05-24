@@ -2,10 +2,10 @@
 
 echo Regist
 echo ===
-gsudo C:\Users\User\Git\command\_windows\src\Register\cmder_install-context.reg
-gsudo C:\Users\User\Git\command\_windows\src\Register\sublime-text_install-context.reg
-gsudo C:\Users\User\Git\command\_windows\src\Register\vscodium_install-context.reg
-gsudo C:\Users\User\Git\command\_windows\src\Register\wezterm_install-context.reg
+gsudo C:\Users\User\Git\script\_windows\src\Register\cmder_install-context.reg
+gsudo C:\Users\User\Git\script\_windows\src\Register\sublime-text_install-context.reg
+gsudo C:\Users\User\Git\script\_windows\src\Register\vscodium_install-context.reg
+gsudo C:\Users\User\Git\script\_windows\src\Register\wezterm_install-context.reg
 gsudo C:\Users\User\Scoop\apps\7zip\current\install-context.reg
 gsudo C:\Users\User\Scoop\apps\eartrumpet\current\add-startup.reg
 gsudo C:\Users\User\Scoop\apps\git\current\install-context.reg
