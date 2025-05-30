@@ -1,6 +1,6 @@
 @echo off
 
-set "GRID_PLAYER_PATH=C:\Users\User\Scoop\apps\gridplayer\current\GridPlayer.exe"
+set "MPVC_PATH=C:\Users\User\Git\script\mpv\mpvc.bat"
 set "files="
 
 :loop
@@ -10,6 +10,6 @@ set "files="
     goto loop
 
 :run_command
-    "%GRID_PLAYER_PATH%" %files%
+    "%MPVC_PATH%" --merge-files %files%
     echo All files processed.
     pause

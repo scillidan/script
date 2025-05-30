@@ -215,6 +215,10 @@ mkdir %FILEBROWSER%
 mklink %FILEBROWSER%\setpath.bat %HOME_DIR%\Git\dotfiles\_windows\cmder\vendor\setpath.bat
 mklink %FILEBROWSER%\user_aliases.cmd %HOME_DIR%\Git\dotfiles\_windows\cmder\config\user_aliases.cmd
 mklink %FILEBROWSER%\user_profile.cmd %HOME_DIR%\Git\dotfiles\_windows\cmder\config\user_profile.cmd
+mklink %FILEBROWSER%\install_scoop.bat %HOME_DIR%\Git\script\_windows\src\install_scoop.bat
+mklink %FILEBROWSER%\install_pkgm.bat %HOME_DIR%\Git\script\_windows\src\install_pkgm.bat
+mklink %FILEBROWSER%\archwsl.md %HOME_DIR%\Git\notes\os\archwsl.md
+mklink %FILEBROWSER%\abbreviation.md %HOME_DIR%\Vault\dictionary\abbreviation.md
 echo(
 
 echo lintalist

@@ -87,7 +87,7 @@ echo ---
 if exist "auto-save-state.lua" (
     echo "auto-save-state.lua already exists. Skipping download."
 ) else (
-    curl -L -o auto-save-state.lua https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/auto-save-state.lua
+    curl -L -o auto-save-state.lua https://raw.githubusercontent.com/AN3223/dotfiles/refs/heads/master/.config/mpv/scripts/auto-save-state.lua
 )
 echo(
 

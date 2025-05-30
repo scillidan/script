@@ -11,7 +11,6 @@ git clone --depth=1 https://github.com/pierretom/autoselect-forced-sub
 git clone --depth=1 https://github.com/joaquintorres/autosubsync-mpv
 git clone --depth=1 https://github.com/po5/celebi
 git clone --depth=1 https://github.com/mar04/chapters_for_mpv chapters_for_mpv
-git clone --depth=1 https://github.com/po5/evafast
 git clone --depth=1 https://github.com/directorscut82/find_subtitles find_subtitles
 git clone --depth=1 https://github.com/natural-harmonia-gropius/hdr-toys
 git clone --depth=1 https://github.com/natural-harmonia-gropius/input-event
@@ -29,13 +28,15 @@ rem pnpm install --frozen-lockfile && pnpm run build
 git clone --depth=1 https://github.com/guidocella/mpv-image-config
 git clone --depth=1 https://github.com/occivink/mpv-image-viewer
 git clone --depth=1 https://github.com/noaione/mpv-js-scripts
+git clone --depth=1 https://github.com/ento/mpv-cheatsheet
+rem mkdir dist
+rem browserify --bare src/index.js > dist/cheatsheet.js
 git clone --depth=1 https://github.com/liberlanco/mpv-lang-learner
 git clone --depth=1 https://github.com/thinkmcflythink/mpv-loudnorm
 git clone --depth=1 https://github.com/dudemanguy/mpv-manga-reader
 git clone --depth=1 https://github.com/jonniek/mpv-nextfile
 git clone --depth=1 https://github.com/wishyu/mpv-ontop-window
 git clone --depth=1 https://github.com/ctlaltdefeat/mpv-open-imdb-page
-git clone --depth=1 https://github.com/Zren/mpv-osc-tethys
 git clone --depth=1 https://github.com/jonniek/mpv-playlistmanager
 git clone --depth=1 https://github.com/christoph-heinrich/mpv-quality-menu
 git clone --depth=1 https://github.com/Kayizoku/mpv-rename
@@ -58,14 +59,15 @@ git clone --depth=1 https://github.com/genfu94/mpv-subtitle-retimer
 git clone --depth=1 https://github.com/CogentRedTester/mpv-user-input
 git clone --depth=1 https://github.com/shadax1/mpv_segment_length
 git clone --depth=1 https://github.com/ayghub/open-dir
-git clone --depth=1 https://gist.github.com/blackarcher21/162dc1bef708e90082c6c4f9500c1997 remember-volume.lua
 git clone --depth=1 https://github.com/po5/thumbfast
-git clone --depth=1 https://github.com/Ajatt-Tools/videoclip
 git clone --depth=1 https://github.com/mrxdst/webtorrent-mpv-hook
 
+rem git clone --depth=1 https://gist.github.com/blackarcher21/162dc1bef708e90082c6c4f9500c1997 remember-volume.lua
+rem git clone --depth=1 https://github.com/Zren/mpv-osc-tethys
+rem git clone --depth=1 https://github.com/po5/evafast
+rem git clone --depth=1 https://github.com/Ajatt-Tools/videoclip
 rem git clone --depth=1 https://github.com/Ashyni/mpv-scripts mpv-scripts@Ashyni
 rem git clone --depth=1 https://github.com/JKubovy/MPV-Watch-Later-OSD-Menu
-rem git clone --depth=1 https://github.com/ento/mpv-cheatsheet
 rem git clone --depth=1 https://github.com/hacel/recent
 rem git clone --depth=1 https://github.com/jonniek/mpv-filenavigator
 rem git clone --depth=1 https://github.com/jonniek/unseen-playlistmaker
