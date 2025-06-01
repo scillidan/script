@@ -24,4 +24,4 @@ for %%I in (%*) do (
 )
 
 endlocal
-pause
+rem pause

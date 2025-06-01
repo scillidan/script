@@ -89,6 +89,7 @@ mediainfo-gui ^
 audacity ^
 blender ^
 bulk-rename-utility ^
+calibre ^
 clink ^
 clink-completions ^
 conemu ^
@@ -118,6 +119,7 @@ gpu-z ^
 gridplayer ^
 handbrake ^
 hosts-file-editor ^
+imageglass ^
 inkscape ^
 irfanview ^
 jackett ^

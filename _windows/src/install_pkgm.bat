@@ -8,7 +8,7 @@ pnpm add -g @innocenzi/rename @vivliostyle/cli degit echo-cli npms-cli markserv 
 :: carbon-now ascii-silhouettify
 pnpm add -g clean-css html-minifier js-beautify prettier svgo terser
 
-pipx install ass2srt coloro commitizen doc2dash ffsubsync gethash hererocks pip_search subliminal vtt_to_srt3 yoga "rembg[cli]"
+pipx install ass2srt coloro commitizen doc2dash ffsubsync gethash hererocks pip_search subliminal vtt_to_srt3 wappalyzer yoga "rembg[cli]"
 :: fotokilof csvs-to-sqlite sqlite-utils
 
 cargo install autocast code2prompt didyoumean feel pipe-rename stylua sub-batch thes tidy-viewer trashy vimg
