@@ -15,6 +15,7 @@ gsudo C:\Users\User\Scoop\apps\obs-studio\current\data\obs-plugins\win-dshow\vir
 gsudo C:\Users\User\Scoop\apps\python310\current\install-pep-514.reg
 gsudo C:\Users\User\Scoop\apps\tailscale\current\add-startup.reg
 gsudo C:\Users\User\Scoop\apps\zlib\current\register.reg
+gsudo C:\Users\User\Git\script\_windows\src\Register\uninstall-context.reg
 echo(
 
 pause

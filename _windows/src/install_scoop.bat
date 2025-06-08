@@ -1,129 +1,81 @@
 @echo off
 setlocal
 
-set package=7zip ^
-7zip-extra ^
+set bucket_package=7zip ^
+activitywatch ^
+advancedrenamer ^
 agg ^
 alacritty ^
 alass ^
-audiowaveform ^
-bat ^
-broot ^
-bulk-rename-command ^
-chafa ^
-csview ^
-curl ^
-dictzip ^
-doggo ^
-dolt ^
-dufs ^
-everything-cli ^
-exiftool ^
-eza ^
-fd ^
-fzf ^
-gh ^
-git ^
-glow ^
-grex ^
-gsudo ^
-gzip ^
-handbrake-cli ^
-jq ^
-libwebp ^
-mediainfo ^
-mprocs ^
-neovide ^
-neovim ^
-oxipng ^
-pandoc ^
-pgstosrt ^
-pngquant ^
-powersession-rs ^
-putty ^
-pwsh ^
-ripgrep ^
-sass ^
-sd ^
-sed ^
-starship ^
-svg2png ^
-syncthing ^
-tere ^
-trzsz ^
-unrar ^
-video-compare ^
-vcxsrv ^
-wget ^
-winfetch ^
-winscp ^
-xsv ^
-yt-dlp ^
-zoxide ^
-bun ^
-cmake ^
-ffmpeg ^
-gvm ^
-hugo-extended ^
-imagemagick ^
-llvm ^
-meson ^
-ninja ^
-miniconda3-py310 ^
-nvm ^
-perl ^
-pnpm ^
-python310 ^
-tesseract ^
-yarn ^
-uv ^
-zig ^
-zlib ^
-activitywatch ^
-advancedrenamer ^
-altbacktick ^
 archwsl ^
+audacity ^
 autohotkey1.1 ^
 autohotkey ^
-mediainfo-gui ^
-audacity ^
+bat ^
 blender ^
+broot ^
+bulk-rename-command ^
 bulk-rename-utility ^
+bun ^
 calibre ^
-clink ^
-clink-completions ^
-conemu ^
-darktable ^
-dupeguru ^
-etcher ^
-exifcleaner ^
-fastcopy ^
-ffmpeg-batch-av-converter ^
-fontreg ^
 carnac ^
 centertaskbar ^
+chafa ^
+clink ^
+clink-completions ^
+cmake ^
+conemu ^
 cpu-z ^
+csview ^
+curl ^
+darktable ^
 dbeaver ^
 deskpins ^
 ditto ^
+dngrep ^
+doggo ^
+dolt ^
+dufs ^
+dupeguru ^
 eartrumpet ^
 espanso ^
+etcher ^
+everything-cli ^
+exifcleaner ^
 exifglass ^
+exiftool ^
+eza ^
+fastcopy ^
+fd ^
+ffmpeg ^
+fontreg ^
 foxit-pdf-reader ^
 freecad ^
+fzf ^
+geekuninstaller ^
+gh ^
+git ^
 gitify ^
+glow ^
 goldendict ^
 gpodder ^
-geekuninstaller ^
 gpu-z ^
+grex ^
 gridplayer ^
+gsudo ^
+gzip ^
 handbrake ^
+handbrake-cli ^
 hosts-file-editor ^
+hugo-extended ^
 imageglass ^
+imagemagick ^
 inkscape ^
 irfanview ^
 jackett ^
 jpegview-fork ^
+jq ^
+k-lite-codec-pack-basic-np ^
 kdenlive ^
 keepassxc ^
 keypirinha ^
@@ -131,86 +83,156 @@ kicad ^
 krita ^
 libreoffice ^
 librewolf ^
-lintalist ^
+libwebp ^
 lively ^
+llvm ^
 localsend ^
 lockhunter ^
 losslesscut ^
+mediainfo ^
+mediainfo-gui ^
+meson ^
 miktex ^
+miniconda3-py310 ^
 mkvtoolnix ^
 mp3tag ^
+mprocs ^
 mpv ^
 mupdf ^
+neovide ^
+neovim ^
+ninja ^
 nohboard ^
-nomeiryoui ^
+ntop ^
+nvm ^
 obs-studio ^
 obsidian ^
 omegat ^
+oxipng ^
+pandoc ^
 pdfarranger ^
+perl ^
+pngquant ^
+pnpm ^
+powersession-rs ^
 pureref ^
+putty ^
+pwsh ^
+python310 ^
 qalculate ^
 qbittorrent-enhanced ^
 qimgv ^
-qutebrowser ^
 quiterss ^
+qutebrowser ^
 qview ^
 rapidee ^
 raspberry-pi-imager ^
 rbtray ^
-rectanglewin ^
 reduce-memory ^
-resizer2 ^
 restart-explorer ^
+ripgrep ^
 rufus ^
+sass ^
+scc ^
+sd ^
 sd-card-formatter ^
+sed ^
 sharpkeys ^
 shellexview ^
 shotcut ^
 sigil ^
-sizer ^
 smarttaskbar ^
 smartzip ^
-smf-dsp ^
+sox ^
+starship ^
 staxrip ^
 stirling-pdf ^
 subtitleedit ^
-sumatrapdf ^
+sumatrapdf-installer ^
+syncthing ^
 t-clock ^
 tageditor ^
 tagspaces ^
 telegram ^
+tere ^
+tesseract ^
 texlab ^
 thorium-reader ^
 thunderbird ^
-ventoy ^
-vscodium ^
+trzsz ^
 ultravnc ^
 umi-ocr-paddle ^
+unrar ^
 upscayl ^
-virgo ^
+uv ^
+vcxsrv ^
+ventoy ^
+video-compare ^
 vlc ^
-wcap ^
-webify ^
+vscodium ^
+wget ^
 win32yank ^
+winfetch ^
 winmerge ^
+winscp ^
 winsshterm ^
 wsl2-distro-manager ^
-wxmp3gain ^
 xmedia-recode ^
 xnconvert ^
+xsv ^
+yarn ^
 youtube-music ^
+yt-dlp ^
 ytdlp-interface ^
+zig ^
+zlib ^
+zoxide ^
 zeal
 
-for %%p in (%package%) do (
+set bucket_package_admin_install=sshfs-np ^
+tailscale ^
+windowsdesktop-runtime-6.0 ^
+windowsdesktop-runtime-7.0 ^
+windowsdesktop-runtime-lts
+
+for %%p in (%bucket_package%) do (
     scoop install %%p
 )
 
-set packagenp=sshfs-np ^
-sshfs-win-manager-np ^
-tailscale
+for %%p in (%bucket_package_admin_install%) do (
+    gsudo scoop install %%p
+)
 
-for %%p in (%packagenp%) do (
+set personal_bucket_package=7zip-extra ^
+altbacktick ^
+audiobookconverter ^
+audiowaveform ^
+cjam ^
+dictzip ^
+ffmpeg-batch-av-converter ^
+hydralauncher ^
+keppymidiconverter ^
+lintalist ^
+madamiru ^
+nomeiryoui ^
+pgstosrt ^
+pro ^
+rectanglewin ^
+resizer2 ^
+sizer ^
+someruler ^
+svg2png ^
+wxmp3gain ^
+wcap ^
+webify
+
+set personal_bucket_package_admin_install=sshfs-win-manager-np
+
+for %%p in (%personal_bucket_package%) do (
+    scoop install %%p
+)
+
+for %%p in (%personal_bucket_package_admin_install%) do (
     gsudo scoop install %%p
 )
 

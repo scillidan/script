@@ -3,6 +3,7 @@ $lnkPath = @(
  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\ActivityWatch.lnk",
  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\CenterTaskbar.lnk",
  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Ditto.lnk",
+ "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\DeskPins.lnk",
  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\EarTrumpet.lnk",
  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Espanso.lnk",
  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Everything.lnk",
@@ -19,7 +20,6 @@ $lnkPath = @(
  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\T-Clock.lnk",
  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Tailscale.lnk",
  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Umi-OCR.lnk",
- "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\virgo.lnk",
  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Zeal.lnk"
 )
 

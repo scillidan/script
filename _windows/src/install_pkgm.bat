@@ -4,8 +4,8 @@ echo Install though pkgm
 echo ===
 echo(
 
-pnpm add -g @innocenzi/rename @vivliostyle/cli degit echo-cli npms-cli markserv open-cli png-to-ico retypeapp serve tldr ttf2woff2 vercel webtorrent-mpv-hook repomix
-:: carbon-now ascii-silhouettify
+pnpm add -g @innocenzi/rename @vivliostyle/cli ascii-silhouettify degit echo-cli ki-cli ki-cli-hyphen npms-cli markserv open-cli png-to-ico retypeapp serve tldr ttf2woff2 vercel webtorrent-mpv-hook repomix
+:: carbon-now
 pnpm add -g clean-css html-minifier js-beautify prettier svgo terser
 
 pipx install ass2srt coloro commitizen doc2dash ffsubsync gethash hererocks pip_search subliminal vtt_to_srt3 wappalyzer yoga "rembg[cli]"
