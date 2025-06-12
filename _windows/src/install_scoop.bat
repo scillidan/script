@@ -55,6 +55,8 @@ fzf ^
 geekuninstaller ^
 gh ^
 git ^
+git-branchless ^
+git-cliff ^
 gitify ^
 glow ^
 goldendict ^
@@ -98,6 +100,7 @@ mkvtoolnix ^
 mp3tag ^
 mprocs ^
 mpv ^
+musescore ^
 mupdf ^
 neovide ^
 neovim ^

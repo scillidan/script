@@ -11,7 +11,7 @@ pnpm add -g clean-css html-minifier js-beautify prettier svgo terser
 pipx install ass2srt coloro commitizen doc2dash ffsubsync gethash hererocks pip_search subliminal vtt_to_srt3 wappalyzer yoga "rembg[cli]"
 :: fotokilof csvs-to-sqlite sqlite-utils
 
-cargo install autocast code2prompt didyoumean feel pipe-rename stylua sub-batch thes tidy-viewer trashy vimg
+cargo install autocast code2prompt daktilo didyoumean eva feel gptcommit pipe-rename stylua sub-batch thes tidy-viewer trashy vimg
 
 go install -v github.com/wowu/pro@latest
 go install -v github.com/mandykoh/autocrop/cmd/autocrop@latest

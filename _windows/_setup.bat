@@ -7,20 +7,26 @@ rem call %~dp0\src\install_scoop.bat
 rem call %~dp0\src\install_choco.bat
 
 :: Install by installer
+:: aspell-win32
 :: Brave
 :: chaiNNer
 :: clawPDF
 :: cmder_mini
+:: Copy Dialog Lunar Lander
 :: DarkThumbs
+:: DeviceCleanup
 :: Directory Opus
 :: DiskGenius
 :: Image To PDF Converter
+:: LRCGET
 :: Ollama
 :: Qt Movie Thumbnailer
+:: QuickSFV
 :: Steam
 :: STL-Thumb
 :: Sublime Text
 :: SVG Shell Extensions and SVG Text Editor
+:: Video Duplicate Finder
 :: Virtual Display Driver
 
 rem call %~dp0\src\install_pkgm.bat
@@ -37,6 +43,8 @@ rem call %~dp0\src\install_pkgm.bat
 :: shell-x -init
 :: tldr -c
 :: tldr -u
+:: git branchless init
+:: git cliff --init keepachangelog
 
 :: Run the exe to set
 :: SmartZip.exe
