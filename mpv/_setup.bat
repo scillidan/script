@@ -201,6 +201,11 @@ for %%d in (%CONFIG_GLOBAL%) do (
     mklink "%%d\scripts\mpv_chapters.js" "%MPV_SRC%\mpv-chapters\mpv_chapters.js"
     echo(
 
+    echo mpv-scripts@dyphire
+    echo ---
+    mklink "%%d\scripts\chapter-make-read.lua" "%MPV_SRC%\mpv-scripts@dyphire\chapter-make-read.lua"
+    echo(
+
     echo Subtitle
     echo ===
 

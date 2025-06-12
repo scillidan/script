@@ -13,10 +13,15 @@ pipx install ass2srt coloro commitizen doc2dash ffsubsync gethash hererocks pip_
 
 cargo install autocast code2prompt daktilo didyoumean eva feel gptcommit pipe-rename stylua sub-batch thes tidy-viewer trashy vimg
 
-go install -v github.com/wowu/pro@latest
+go install -v github.com/dnnrly/abbreviate@latest
 go install -v github.com/mandykoh/autocrop/cmd/autocrop@latest
-go install -v github.com/515hikaru/mdtable2csv@latest
 go install -v github.com/glitchedgitz/cook/v2/cmd/cook@latest
+go install -v github.com/razonyang/gopencc@latest
+go install -v github.com/515hikaru/mdtable2csv@latest
+go install -v github.com/wowu/pro@latest
 :: github.com/nektos/act@latest
+
+gh extension install yuler/gh-download
+gh extension install HaywardMorihara/gh-tidy
 
 pause

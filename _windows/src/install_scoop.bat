@@ -125,6 +125,7 @@ python310 ^
 qalculate ^
 qbittorrent-enhanced ^
 qimgv ^
+qsv ^
 quiterss ^
 qutebrowser ^
 qview ^
@@ -182,7 +183,7 @@ winsshterm ^
 wsl2-distro-manager ^
 xmedia-recode ^
 xnconvert ^
-xsv ^
+xan ^
 yarn ^
 youtube-music ^
 yt-dlp ^

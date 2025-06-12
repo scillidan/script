@@ -34,7 +34,8 @@ mklink /J "%GOLDENDICT_DIR%\content\files_zim" "%GOLDENDICT_DL%\files_zim"
 mklink /J "%GOLDENDICT_DIR%\content\morphology" "%GOLDENDICT_DL%\morphology"
 mkdir "%GOLDENDICT_DIR%\content\sound-dirs"
 mklink /J "%GOLDENDICT_DIR%\content\sound-dirs\Forvo_pron" "%GOLDENDICT_DL%\sound-dirs\Forvo_pron"
-mklink /J "%GOLDENDICT_DIR%\content\sound-dirs\pronunciations" "%GOLDENDICT_DL%\sound-dirs\pronunciations"
+mklink "%GOLDENDICT_DIR%\content\sound-dirs\pronunciations-en.zips" "%GOLDENDICT_DL%\sound-dirs\pronunciations-en.zips"
+mklink "%GOLDENDICT_DIR%\content\sound-dirs\kokoro-tts_etymonline.zips" "%GOLDENDICT_DL%\sound-dirs\kokoro-tts_etymonline.zips"
 echo(
 
 echo Setup Forvo_pron
