@@ -31,6 +31,7 @@ curl ^
 darktable ^
 dbeaver ^
 deskpins ^
+detect-it-easy ^
 ditto ^
 dngrep ^
 doggo ^
@@ -46,6 +47,7 @@ exifglass ^
 exiftool ^
 eza ^
 fastcopy ^
+fastfetch ^
 fd ^
 ffmpeg ^
 fontreg ^
@@ -111,6 +113,7 @@ nvm ^
 obs-studio ^
 obsidian ^
 omegat ^
+onefetch ^
 oxipng ^
 pandoc ^
 pdfarranger ^
