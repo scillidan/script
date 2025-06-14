@@ -2,6 +2,7 @@
 
 mprocs ^
 	"%HOME_DIR%\Git\dotfiles\_windows\autohotkey\User.ahk" ^
+	"%HOME_DIR%\Git\dotfiles\_windows\autohotkey\lang_user.ahk" ^
 	"%HOME_DIR%\Usr\Source\autohotkey\ahk-keyboard-locker\keyboard-locker.ahk" ^
 	"%HOME_DIR%\Usr\Source\autohotkey\AHK-KeyMap\KeyMap_User.ahk" ^
 	"%HOME_DIR%\Usr\Source\autohotkey\QuickSwitch\QuickSwitch.ahk" ^

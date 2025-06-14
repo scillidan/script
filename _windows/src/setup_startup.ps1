@@ -25,7 +25,6 @@ $lnkPath = @(
 
 $optPath = @(
     "C:\Program Files\Clash Verge\clash-verge.exe",
-    "C:\Users\User\Usr\Source\autohotkey\KBLAutoSwitch\KBLAutoSwitch.exe",
     "C:\Users\User\Git\script\mprocs\autohotkey.bat",
     "C:\Users\User\AppData\Local\Programs\Ollama\ollama app.exe",
     "C:\Users\User\Scoop\shims\resizer2.exe"

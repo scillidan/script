@@ -148,6 +148,7 @@ sharpkeys ^
 shellexview ^
 shotcut ^
 sigil ^
+sioyek ^
 smarttaskbar ^
 smartzip ^
 sox ^
@@ -163,6 +164,7 @@ tagspaces ^
 telegram ^
 tere ^
 tesseract ^
+tex-fmt ^
 texlab ^
 thorium-reader ^
 thunderbird ^
