@@ -58,6 +58,9 @@ del "%CMDER_DIR%\vendor\tere.bat"
 del "%CMDER_DIR%\vendor\fzf.lua
 del "%CMDER_DIR%\vendor\fuzzy_history.lua
 del "%CMDER_DIR%\vendor\zoxide.lua
+del "%CMDER_DIR%\vendor\carapace.lua"
+del "%CMDER_DIR%\vendor\matchicons.lua"
+del "%CMDER_DIR%\config\cdz.lua"
 del "%CMDER_DIR%\vendor\git_aliases_autocomplete.lua
 del "%CMDER_DIR%\vendor\git_branch_autocomplete.lua
 mklink /J "%CMDER_DIR%\bin" "%CMDER_DOTFILE%\bin"
@@ -80,11 +83,13 @@ mklink "%CMDER_DIR%\vendor\setpath_msys2.bat" "%CMDER_DOTFILE%\vendor\setpath_ms
 mklink "%CMDER_DIR%\vendor\setpath_cygwin.bat" "%CMDER_DOTFILE%\vendor\setpath_cygwin.bat"
 mklink "%CMDER_DIR%\config\user_aliases.cmd" "%CMDER_DOTFILE%\config\user_aliases.cmd"
 mklink "%CMDER_DIR%\vendor\tere.bat" "%CMDER_DOTFILE%\vendor\tere.bat"
-mklink "%CMDER_DIR%\vendor\fzf.lua" %CMDER_DOTFILE%\vendor\fzf(clink-fzf).lua"
+mklink "%CMDER_DIR%\vendor\fzf.lua" %CMDER_DOTFILE%\vendor\clink-fzf_fzf.lua"
+rem mklink "%CMDER_DIR%\vendor\fzf.lua" %CMDER_SRC%\clink-fzf\fzf.lua"
 mklink "%CMDER_DIR%\vendor\fuzzy_history.lua" %CMDER_SRC%\clink-gizmos\fuzzy_history.lua"
 mklink "%CMDER_DIR%\vendor\zoxide.lua" %CMDER_SRC%\clink-zoxide\zoxide.lua"
-rem rem mklink "%CMDER_DIR%\vendor\z.cmd" "%HOME_DIR%\z.lua\current\z.cmd"
-rem rem mklink "%CMDER_DIR%\vendor\z.lua" "%HOME_DIR%\z.lua\current\z.lua"
+mklink "%CMDER_DIR%\vendor\carapace.lua" %CMDER_SRC%\clink-carapace\carapace.lua"
+mklink "%CMDER_DIR%\vendor\matchicons.lua" %CMDER_SRC%\clink-gizmos\matchicons.lua"
+mklink "%CMDER_DIR%\config\cdz.lua" %CMDER_SRC%\owl-cmder-tools\config\cdz.lua"
 mklink "%CMDER_DIR%\vendor\git_aliases_autocomplete.lua" %CMDER_SRC%\clink-git-extensions\git_aliases_autocomplete.lua"
 mklink "%CMDER_DIR%\vendor\git_branch_autocomplete.lua" %CMDER_SRC%\clink-git-extensions\git_branch_autocomplete.lua"
 echo(

@@ -39,6 +39,12 @@ mklink "%HOME_DIR%\.yarnrc" "%HOME_DIR%\Git\dotfiles\yarnrc"
 :: Add yarnrc.linkfile into .gitignore
 echo(
 
+echo gowlconfig
+echo ---
+del "%HOME_DIR%\.gowlconfig"
+mklink "%HOME_DIR%\.gowlconfig" "%HOME_DIR%\Git\dotfiles\gowlconfig"
+echo(
+
 echo wsl
 echo ---
 del "%HOME_DIR%\.wslconfig"

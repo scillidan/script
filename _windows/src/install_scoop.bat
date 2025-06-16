@@ -14,10 +14,12 @@ autohotkey ^
 bat ^
 blender ^
 broot ^
+btop ^
 bulk-rename-command ^
 bulk-rename-utility ^
 bun ^
 calibre ^
+carapace ^
 carnac ^
 centertaskbar ^
 chafa ^
@@ -57,8 +59,12 @@ fzf ^
 geekuninstaller ^
 gh ^
 git ^
+gitleaks ^
 git-branchless ^
 git-cliff ^
+git-crypt ^
+git-filter-repo ^
+git-sizer ^
 gitify ^
 glow ^
 goldendict ^
@@ -85,6 +91,7 @@ keepassxc ^
 keypirinha ^
 kicad ^
 krita ^
+lazygit ^
 libreoffice ^
 librewolf ^
 libwebp ^
@@ -186,7 +193,6 @@ winmerge ^
 winscp ^
 winsshterm ^
 wsl2-distro-manager ^
-xmedia-recode ^
 xnconvert ^
 xan ^
 yarn ^
