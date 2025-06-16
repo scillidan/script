@@ -176,6 +176,7 @@ texlab ^
 thorium-reader ^
 thunderbird ^
 trzsz ^
+ugrep ^
 ultravnc ^
 umi-ocr-paddle ^
 unrar ^
