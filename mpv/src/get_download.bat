@@ -37,7 +37,6 @@ if not exist "mpv-handler" (
     unzip mpv-handler.zip -d mpv-handler
 )
 
-echo mpv = "C:\\Users\\User\\Usr\\Opt\\mpv_stream\\mpv.exe" > "%MPV_DL%\mpv-handler\config.toml"
 gsudo "%MPV_DL%\mpv-handler\handler-install.bat"
 echo(
 

@@ -46,7 +46,6 @@ echo ---
 set "CMDER_DIR=%HOME_DIR%\Usr\Opt\cmder_mini"
 set "CMDER_DOTFILE=%HOME_DIR%\Git\dotfiles\_windows\cmder"
 set "CMDER_SRC=%HOME_DIR%\Usr\Source\cmder"
-rmdir /S /Q "%CMDER_DIR%\bin"
 rmdir /S /Q "%CMDER_DIR%\config"
 rmdir /S /Q "%CMDER_DIR%\vendor\clink"
 rmdir /S /Q "%CMDER_DIR%\vendor\clink-completions"
@@ -63,7 +62,6 @@ del "%CMDER_DIR%\vendor\matchicons.lua"
 del "%CMDER_DIR%\config\cdz.lua"
 del "%CMDER_DIR%\vendor\git_aliases_autocomplete.lua
 del "%CMDER_DIR%\vendor\git_branch_autocomplete.lua
-mklink /J "%CMDER_DIR%\bin" "%CMDER_DOTFILE%\bin"
 mklink /J "%CMDER_DIR%\vendor\conemu-maximus5" "%SCOOP_APPS_DIR%\conemu\current"
 mklink /J "%CMDER_DIR%\vendor\clink" "%SCOOP_APPS_DIR%\clink\current"
 mklink /J "%CMDER_DIR%\vendor\clink-completions" "%SCOOP_APPS_DIR%\clink-completions\current"
@@ -124,6 +122,7 @@ echo everything
 echo ---
 set "EVERYTHING_DIR=%SCOOP_APPS_DIR%\everything\current"
 set "EVERYTHING_DOTFILE=%HOME_DIR%\Git\dotfiles\_windows\everything"
+set "EVERYTHING_DL=%HOME_DIR%\Usr\Download\everything"
 del "%EVERYTHING_DIR%\Everything.ini"
 copy "%EVERYTHING_DOTFILE%\Everything.ini" "%EVERYTHING_DIR%\Everything.ini"
 echo(
@@ -146,6 +145,8 @@ del "%DNGREP_DATA%\dnGREP.Settings.dat"
 del "%DNGREP_DIR%\dnGREP.Settings.dat"
 copy "%DNGREP_DOTFILE%\dnGREP.Settings.dat" "%DNGREP_DOTFILE%\dnGREP.Settings.dat.linkfile"
 mklink "%DNGREP_DIR%\dnGREP.Settings.dat" "%DNGREP_DOTFILE%\dnGREP.Settings.dat.linkfile"
+mklink "%DNGREP_DIR%\Everything32.dll" "%EVERYTHING_DL%\Everything-SDK\dll\Everything32.dll"
+mklink "%DNGREP_DIR%\Everything64.dll" "%EVERYTHING_DL%\Everything-SDK\dll\Everything64.dll"
 :: Add dnGREP.Settings.dat.linkfile into .gitignore
 echo(
 

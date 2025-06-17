@@ -52,6 +52,7 @@ fastcopy ^
 fastfetch ^
 fd ^
 ffmpeg ^
+ffmpeg-batch ^
 fontreg ^
 foxit-pdf-reader ^
 freecad ^
@@ -173,7 +174,6 @@ tere ^
 tesseract ^
 tex-fmt ^
 texlab ^
-thorium-reader ^
 thunderbird ^
 trzsz ^
 ugrep ^
@@ -225,7 +225,6 @@ audiobookconverter ^
 audiowaveform ^
 cjam ^
 dictzip ^
-ffmpeg-batch-av-converter ^
 hydralauncher ^
 keppymidiconverter ^
 lintalist ^
