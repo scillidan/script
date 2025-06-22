@@ -23,6 +23,7 @@ wget https://marketplace.visualstudio.com/_apis/public/gallery/publishers/davidh
 wget https://marketplace.visualstudio.com/_apis/public/gallery/publishers/PolymerMallard/vsextensions/icon-snippets/latest/vspackage
 wget https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vstirbu/vsextensions/vscode-mermaid-preview/latest/vspackage
 wget https://marketplace.visualstudio.com/_apis/public/gallery/publishers/TwoDevs/vsextensions/lightless/latest/vspackage
+wget https://marketplace.visualstudio.com/_apis/public/gallery/publishers/OrelLazri/vsextensions/vanta/latest/vspackage
 
 endlocal
 
